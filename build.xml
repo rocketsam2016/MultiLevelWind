@@ -7,7 +7,7 @@
     <target name="build">
         <mkdir dir="${build.dir}"/>
         <javac debug="true" srcdir="${src.dir}" destdir="${build.dir}" classpath="OpenRocket.jar" includeantruntime="false" source="1.6" target="1.6"/>
-    	<jar destfile="ThrustScaler.jar" basedir="${build.dir}"/>
+    	<jar destfile="MultiLevelWind.jar" basedir="${build.dir}"/>
     </target>
 
 </project>
