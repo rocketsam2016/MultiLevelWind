@@ -36,13 +36,13 @@ public class MultiLevelWind extends AbstractSimulationExtension {
 			}
 		}
 		for (int i = 0; i <= lastUsedLevel && i < 5; i++) {
-			label = label + System.lineSeparator() + getWindLabel(i);
+			label = label + System.lineSeparator() + " " + getWindLabel(i);
 		}
 		return label + "...";
 	}
 	
 	private String getWindLabel(int idx) {
-		return String.format("%d%d\u00B0%dᵐᵖʰ",
+		return String.format("%d%d\u00B0%d\u1d50\u1d56\u02b0",
 				Math.round(getWindAlt(idx) / 0.3048),
 				Math.round(360.0 * getWindDirection(idx) / (Math.PI * 2)),
 				Math.round(getWind(idx) / 0.44704));

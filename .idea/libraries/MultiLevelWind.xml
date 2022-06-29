@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MultiLevelWind">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/OpenRocket.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
